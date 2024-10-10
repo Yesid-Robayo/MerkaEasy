@@ -14,7 +14,7 @@
         android:theme="@style/Theme.MarketEasy"
         tools:targetApi="31">
         <activity
-            android:name=".Login"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

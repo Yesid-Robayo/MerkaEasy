@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+
         val textView = findViewById<TextView>(R.id.textView)
         val fullText = "Bienvenido a MerkaEasy!!"
         val spannable = SpannableString(fullText)
@@ -35,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         val loginButton: Button = findViewById(R.id.button)
 
         loginButton.setOnClickListener {
-            val intent = Intent(this, Login::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
         spannable.setSpan(
