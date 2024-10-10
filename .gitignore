@@ -1,15 +1,73 @@
-*.iml
-.gradle
+# IDEs
+/.idea/
+/*.iml
+/.gradle/
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# Android/IntelliJ
+/build/
+/captures/
+
+# Gradle
+.gradle/
+/build/
+/*/build/
+!gradle-wrapper.jar
+
+# Signing files
+/signing/
+
+# Kotlin
+*.kt~
+*.kotlin~
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore Android Studio navigation editor temp files
+.navigation/
+
+# Android Studio Patch files
+*.rej
+*.orig
+
+
+# Crashlytics
+com_crashlytics_export_strings.xml
+
+# Others
+*.log
+.idea/
+*.apk
+*.ap_
+*.db
+*.db-wal
+*.db-shm
+*.jks
+
+# Local configuration file (sdk path, etc)
 local.properties
+
+# Android log files
+*.log
+
+# Android .packaging/
+.packaging/
+
+# IntelliJ files
+/out/
+
+# Temporary files created by JetBrains IDEs
+*.tmp
+*.temp
+*.swp
+
+
+# Ignore Mac files
+.DS_Store
+
+# Ignore Windows files
+Thumbs.db
