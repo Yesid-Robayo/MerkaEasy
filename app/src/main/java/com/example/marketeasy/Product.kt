@@ -1,4 +1,6 @@
 package com.example.marketeasy
 
-class Product {
-}
+data class Product(
+    val name: String,
+    val imageResId: Int
+)
