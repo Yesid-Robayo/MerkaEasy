@@ -13,6 +13,22 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+/**
+ * LoginActivity is responsible for handling the login screen of the application.
+ * It extends AppCompatActivity and overrides the onCreate method to set up the UI and event listeners.
+ *
+ * Key functionalities:
+ * - Enables edge-to-edge display.
+ * - Sets the content view to activity_login layout.
+ * - Customizes a TextView to display "MerkaEasy" with "Easy" in a different color.
+ * - Sets up a click listener on a TextView to navigate to the RegisterActivity.
+ * - Adjusts padding to accommodate system bars using WindowInsetsCompat.
+ * - Sets up a click listener on a Button to navigate to the MainActivity.
+ *
+ * @see AppCompatActivity
+ * @see RegisterActivity
+ * @see MainActivity
+ */
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

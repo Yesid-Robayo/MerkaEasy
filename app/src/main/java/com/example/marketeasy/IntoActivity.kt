@@ -1,3 +1,20 @@
+/**
+ * IntoActivity is the entry point of the application which extends AppCompatActivity.
+ * This activity sets up the UI and handles the transition to the LoginActivity.
+ *
+ * Key functionalities:
+ * - Disables night mode.
+ * - Enables edge-to-edge display.
+ * - Sets the content view to activity_into layout.
+ * - Adjusts padding to accommodate system bars.
+ * - Displays a welcome message with a specific part of the text highlighted in a custom color.
+ * - Navigates to LoginActivity when the login button is clicked.
+ *
+ * @see AppCompatActivity
+ * @see AppCompatDelegate
+ * @see ContextCompat
+ * @see WindowInsetsCompat
+ */
 package com.example.marketeasy
 
 import android.content.Intent

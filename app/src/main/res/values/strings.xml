@@ -19,4 +19,5 @@
     <string name="fullName">Nombre Completo</string>
     <string name="welcome">Bienvenido a MerkaEasy!!</string>
     <string name="welcomemessage">Para disfrutar de una experiencia de compra personalizada, por favor inicie sesión en su cuenta. En Merkaeasy, te ofrecemos una amplia variedad de productos y servicios diseñados para satisfacer tus necesidades.</string>
+    <string name="cart">Carrito</string>
 </resources>

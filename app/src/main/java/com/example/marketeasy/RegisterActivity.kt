@@ -1,3 +1,21 @@
+/**
+ * RegisterActivity is an AppCompatActivity that handles the registration screen of the MarketEasy app.
+ * 
+ * This activity performs the following tasks:
+ * - Enables edge-to-edge display.
+ * - Sets the content view to the activity_register layout.
+ * - Customizes the text color of a portion of a TextView.
+ * - Adjusts the padding of the main view to account for system window insets.
+ * - Sets up click listeners for navigation to the LoginActivity.
+ * 
+ * Methods:
+ * - onCreate(savedInstanceState: Bundle?): Initializes the activity, sets up the UI components, and defines click listeners.
+ * 
+ * UI Components:
+ * - TextView (R.id.textView3): Displays the app name with customized text color.
+ * - TextView (R.id.loginText): Navigates to the LoginActivity when clicked.
+ * - Button (R.id.registeButton): Navigates to the LoginActivity when clicked.
+ */
 package com.example.marketeasy
 
 import android.content.Intent
